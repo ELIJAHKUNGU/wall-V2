@@ -713,6 +713,10 @@ CONTACTS PAGES
 	object-fit: cover;
 	padding-bottom: 100px;
 }
+.c-title{
+	font-weight: 900;
+	color: #000;
+}
 .contacts-banner h1 {
 	padding-top: 20rem;
 	color: #fff;
@@ -724,7 +728,7 @@ CONTACTS PAGES
 	text-align: center;
 }
 .form form h1 {
-	font-size: 4rem;
+	font-size: 2rem;
 	font-weight: 700;
 }
 .form form input {
