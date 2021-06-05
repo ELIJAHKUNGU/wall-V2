@@ -57,7 +57,6 @@ header .navbar-nav .nav-item .contacts {
 	border: 2px solid #3398fe;
 	color: #fff;
 	border-radius: 10px;
-	
 }
 .nav-link.contacts::after {
 	border-bottom: none !important;
@@ -74,7 +73,7 @@ header .navbar-nav .nav-item .contacts {
 	padding-bottom: 2px !important;
 	border-radius: 30px;
 }
-header nav button i{
+header nav button i {
 	font-size: 30px;
 }
 
@@ -83,38 +82,34 @@ header nav button i{
 	height: auto;
 	max-height: 100vh;
 	object-fit: cover;
-	
 }
-.main-banner-text{
-    position: absolute;
+.main-banner-text {
+	position: absolute;
 	top: 0;
 	margin-top: 15rem;
 	font-weight: 600;
 }
-.main-banner-text .banner-text-description h3{
+.main-banner-text .banner-text-description h3 {
 	font-size: 30px;
 	font-weight: 800;
 	font-family: Arial, Helvetica, sans-serif;
 }
-.main-banner .owl-carousel .owl-dots span{
+.main-banner .owl-carousel .owl-dots span {
 	display: none;
 }
 
 @media screen and (max-width: 700px) {
 	.img-main-banner img {
 		height: 70vh;
-	
 	}
-	.main-banner{
+	.main-banner {
 		padding-bottom: 100px;
 	}
 }
 @media screen and (max-width: 700px) {
 	.img-main-banner img {
 		height: 70vh;
-	
 	}
-
 }
 /*========================
 Sub banner
@@ -125,10 +120,10 @@ Sub banner
 =====================*/
 .banner-text-description {
 	padding-top: 20px;
-	box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
 }
-.banner-text-description >h1{
-	color:white;
+.banner-text-description > h1 {
+	color: white;
 	font-size: 3.5rem;
 	font-weight: 700;
 	font-family: "Allerta", sans-serif;
@@ -140,18 +135,17 @@ Sub banner
 	font-family: "Allerta", sans-serif;
 }
 
-#sub-banner .container h3{
-	box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+#sub-banner .container h3 {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
 	padding: 25px;
 	border-radius: 10px;
 	background: #f9f9ff;
-
 }
 
 #sub-banner .owl-carousel .item .img-hover img {
 	height: 300px;
 	width: 100%;
-	border-radius:5px;
+	border-radius: 5px;
 }
 
 .img-hover {
@@ -231,18 +225,16 @@ Sub banner
 	font-weight: 700;
 	font-size: 2.5rem;
 }
-.services-description p{
-	
+.services-description p {
 	font-size: 18px;
 }
 #services .title {
 	line-height: 60px;
-    position: relative;
-   
+	position: relative;
 }
 #services .title::after {
 	content: "";
-	background:#3398fe;
+	background: #3398fe;
 	width: 80px;
 	height: 5px;
 	border-radius: 5px;
@@ -250,7 +242,6 @@ Sub banner
 	bottom: 0;
 	left: 50%;
 	transform: translateX(-50%);
-
 }
 #services .col-sm-4 {
 	display: flex;
@@ -263,7 +254,6 @@ Sub banner
 	background: #f9f9ff;
 }
 #services .col-sm-4 .img-hover img {
-	
 	height: 70px;
 
 	display: flex;
@@ -288,8 +278,6 @@ Sub banner
 	max-height: 300px;
 	width: 100%;
 	object-fit: cover;
-
-	
 }
 .previous-project > img {
 	position: relative;
@@ -412,49 +400,51 @@ Subscribe
 	font-family: "Allerta", sans-serif;
 	font-size: 2.5rem;
 	font-weight: 400;
+	margin: 0;
 }
 .subscribe-content-form {
 	padding-bottom: 30px;
 	display: flex;
-	justify-content: space-between;
-}
-form > input {
-	height: 60px;
-	border-radius: 5px;
 	
-	outline: none;
-	outline-width: 0;
-	border: none;
+	
 }
+.subscribe-form>.form-group>input{
+	width:250px;
+	height: 40px;
+	border-radius: 5px;
+}
+
 form > input::placeholder {
 	padding: 5px;
 }
 .subscribe-content-form > button {
 	font-family: "Allerta", sans-serif;
 	color: white;
-	height: 30px;
 	background: #7854f7;
 	border-radius: 5px;
 	border: none;
+	height: 40px;
+	width: 250px;
 	margin-left: 20px;
-	width: 100px;
+	
 }
 /*========================
 Footer
 =====================*/
-.banner-text-description {
-}
 #clients {
 	background-image: url(../images/subscribe-bg.jpg);
 	background-position: center;
 	background-size: cover;
 	object-fit: cover;
 	background-repeat: no-repeat;
-	
 }
-.clients{
-	
-
+.wat-client-say {
+	font-weight: 700;
+	color: white;
+}
+.icon-name>h5 {
+	color: white;
+	font-weight: 700;
 }
 .getstarted {
 	background: linear-gradient(
@@ -474,7 +464,6 @@ Footer
 	left: 0px;
 	background-image: url(../images/home-banner-1.jpg);
 	color: #fff;
-
 }
 .social-media-icons > i {
 	margin-right: 20px;
@@ -498,21 +487,19 @@ Footer
 }
 .footer-item-details > ul > li {
 	list-style: none;
-	padding: 1px 0;
-	color: #fff;
-	font-size: 1.1rem;
-
+	padding: 2px 0;
 }
 .footer-item-details > ul > li > a {
 	text-decoration: none;
-	font-size: 1.1rem;
-	color: #fff;
+	line-height: 30px;
+	color: white;
 	font-weight: 50;
 	font-family: "Allerta", sans-serif;
 }
-.footer-item-details i{
-	font-size: 25px;
+.footer-item-details > p {
+	color: white;
 }
+
 /*==================================================
 Aboutus  PAGE
 ==================================================*/
@@ -526,58 +513,56 @@ Aboutus  PAGE
 	height: auto;
 	padding-bottom: 20rem;
 }
-.banner-aboutus .banner-aboutus-desc{
+.banner-aboutus .banner-aboutus-desc {
 	padding-top: 20rem;
 	color: #fff;
-
 }
-.banner-aboutus .banner-aboutus-desc h1{
+.banner-aboutus .banner-aboutus-desc h1 {
 	font-size: 30px;
-	
+
 	font-weight: 800;
 }
-.banner-aboutus .banner-aboutus-desc p{
+.banner-aboutus .banner-aboutus-desc p {
 	font-size: 18px;
 	font-weight: 500;
 }
 
-.banner-overlay{
+.banner-overlay {
 	opacity: 40;
 }
-.about-us-des h3{
+.about-us-des h3 {
 	font-size: 30px;
 	text-align: center;
 	font-weight: 200;
-	
 }
-#about-us-desc{
+#about-us-desc {
 	background: #fff;
 }
-#about-us-desc .about-us-des .about-us-artc{
+#about-us-desc .about-us-des .about-us-artc {
 	padding-left: 70px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 }
-.uniqueness{
+.uniqueness {
 	background: #fff;
-	padding-bottom:40px ;
-	padding-top:40px;
+	padding-bottom: 40px;
+	padding-top: 40px;
 }
-.uniqueness  .unique-items .row .col-sm-4{
+.uniqueness .unique-items .row .col-sm-4 {
 	max-width: 350px;
 	margin-left: 20px;
 }
-#experience{
-	border:2px solid #000;
+#experience {
+	border: 2px solid #000;
 	background: #ecf0fd;
 }
-#experience .years-experience h1 ,
+#experience .years-experience h1,
 #experience .years-experience h4 {
 	font-weight: 600;
 }
-.exquisite .row .col-sm-6 img{
+.exquisite .row .col-sm-6 img {
 	height: 550px;
 	width: 100%;
 	object-fit: cover;
@@ -593,11 +578,11 @@ SERVICES  PAGE
 	object-fit: cover;
 	height: auto;
 	opacity: 40;
-	padding-top:40rem;
+	padding-top: 40rem;
 	font-weight: 900;
 	color: #fff;
 }
-.banner-services a{
+.banner-services a {
 	text-decoration: none;
 }
 .banner-services button {
@@ -605,13 +590,13 @@ SERVICES  PAGE
 	color: #fff;
 	float: right;
 	margin-right: 5rem;
-	border-radius:5px;
+	border-radius: 5px;
 }
-.banner-services button:hover{
+.banner-services button:hover {
 	background-color: #7854f7;
 	color: #fff;
 }
-.commercial img{
+.commercial img {
 	height: 400px;
 	width: 100%;
 	object-fit: cover;
@@ -619,37 +604,35 @@ SERVICES  PAGE
 /*==================================================
 PROJECTS PAGE
 ==================================================*/
-#project-page{
+#project-page {
 	background-image: url(../images/home-banner-1.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	object-fit: cover;
-	height:auto;
+	height: auto;
 	padding-bottom: 100px;
-
 }
-#project-page  h1{
+#project-page h1 {
 	font-size: 5rem;
 	color: #fff;
 	padding-top: 10rem;
 	text-transform: capitalize;
 }
-#project-page  h3{
+#project-page h3 {
 	color: #fff;
 
-	
 	text-transform: lowercase;
 	text-transform: uppercase;
 }
-.project-families .col-sm-6 h3{
+.project-families .col-sm-6 h3 {
 	font-size: 30px;
 	font-weight: 600;
 }
-.projects-projects .projects .projects-desc .col-sm-3{
+.projects-projects .projects .projects-desc .col-sm-3 {
 	position: relative;
 }
-.projects-projects .projects .projects-desc .col-sm-3 h1{
+.projects-projects .projects .projects-desc .col-sm-3 h1 {
 	position: absolute;
 	top: 0px;
 	text-align: center;
@@ -673,20 +656,20 @@ PORTFOLIO PAGES
 	height: auto;
 	padding-bottom: 22rem;
 }
-.banner-portfolio h1{
+.banner-portfolio h1 {
 	color: #fff;
 	font-size: 5rem;
 	font-weight: 800;
 }
-.banner-portfolio a{
+.banner-portfolio a {
 	text-decoration: none;
 }
-.banner-portfolio button{
+.banner-portfolio button {
 	padding: 10px 10px;
 	font-size: 30px;
 	border-radius: 10px;
 }
-.recent-blog li{
+.recent-blog li {
 	list-style: none;
 }
 /*==================================================
@@ -701,40 +684,38 @@ CONTACTS PAGES
 	object-fit: cover;
 	padding-bottom: 100px;
 }
-.contacts-banner h1{
+.contacts-banner h1 {
 	padding-top: 20rem;
 	color: #fff;
 	text-align: center;
 	font-weight: 900;
 }
-.contacts-banner h2{
+.contacts-banner h2 {
 	color: #fff;
 	text-align: center;
-
 }
-.form form h1{
+.form form h1 {
 	font-size: 4rem;
 	font-weight: 700;
 }
-.form form input{
+.form form input {
 	height: 60px;
-	background-color:#E8F0FE;
+	background-color: #e8f0fe;
 }
-.form form textarea{
-	
-	background-color:#E8F0FE;
+.form form textarea {
+	background-color: #e8f0fe;
 }
 .call-us {
 	background-color: #000;
 	color: #fff;
 }
-.call-us button{
+.call-us button {
 	border-radius: 10px;
 }
-.call-us button i{
+.call-us button i {
 	font-size: 30px;
 }
-.call-us .col-sm-12 .row button:hover{
+.call-us .col-sm-12 .row button:hover {
 	background-color: #7854f7;
 	color: #fff;
 }
@@ -743,15 +724,11 @@ Responsiveness
 ==================================================*/
 @media screen and (max-width: 372px) {
 	.design-feature-type1 {
-		
-		
 	}
-	#design-prefection .design-feature .img-design-feature{
+	#design-prefection .design-feature .img-design-feature {
 		object-fit: cover;
 		width: 1000px;
-
 	}
-
 }
 
 @media screen and (max-width: 375px) {
@@ -760,33 +737,28 @@ Responsiveness
 	}
 	.design-feature-types {
 		display: none;
-		
 	}
-	#design-prefection  .container .img-design-feature{
+	#design-prefection .container .img-design-feature {
 		width: 500px;
 	}
 	.img-main-banner img {
 		height: 1000px;
 	}
-	#design-prefection  .container .col-sm-6 h3{
+	#design-prefection .container .col-sm-6 h3 {
 		font-size: 30px;
 	}
-
 }
 @media screen and (max-width: 600px) {
 	.img-main-banner img {
 		height: 700px;
 	}
-
 }
 @media screen and (max-width: 800px) {
 	.img-main-banner img {
 		height: 700px;
-
 	}
-	#about-us-desc .about-us-des .about-us-artc{
+	#about-us-desc .about-us-des .about-us-artc {
 		padding-left: 0px;
 		font-size: 30px;
-		
 	}
 }
