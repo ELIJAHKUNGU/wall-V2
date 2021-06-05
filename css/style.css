@@ -520,7 +520,7 @@ Aboutus  PAGE
 	font-weight: 800;
 	line-height: 30px;
 }
-.banner-aboutus-desc > .col-sm-6.col-lg-7 > p{
+.banner-aboutus-desc > .col-sm-6.col-lg-7 > p {
 	line-height: 30px;
 	padding-top: 20px;
 	font-size: 18px;
@@ -530,27 +530,27 @@ Aboutus  PAGE
 .banner-overlay {
 	opacity: 40;
 }
-.about-us-detail>.col-sm-12.col-lg-6>h1{
+.about-us-detail > .col-sm-12.col-lg-6 > h1 {
 	font-size: 30px;
 	color: black;
 	font-weight: 800;
 	line-height: 30px;
 }
-.about-us-detail>.col-sm-12.col-lg-6>p{
-line-height: 30px;
+.about-us-detail > .col-sm-12.col-lg-6 > p {
+	line-height: 30px;
 	padding-top: 20px;
 	font-size: 18px;
 	font-weight: 300;
 }
-.core-values>h1{
+.core-values > h1 {
 	font-size: 30px;
-	color:black;
+	color: black;
 	font-weight: 800;
 	line-height: 30px;
 }
-.core-value-title{
+.core-value-title {
 	font-size: 20px;
-	color:black;
+	color: black;
 	font-weight: 700;
 	line-height: 30px;
 }
@@ -589,6 +589,16 @@ line-height: 30px;
 /*==================================================
 SERVICES  PAGE
 ==================================================*/
+.service-page-title {
+	font-size: 20px;
+	color: black;
+	font-weight: 700;
+	line-height: 30px;
+}
+.service-detail-page{
+	line-height: 40px;
+	font-size: 18px;
+}
 .banner-services {
 	background-image: url(../images/header_1.jpg);
 	background-position: center;
