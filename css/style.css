@@ -784,6 +784,31 @@ CONTACTS PAGES
 	font-weight: 900;
 	color: #000;
 }
+.pre-contact-details {
+	padding: 30px 0;
+}
+.contact-desc {
+	padding: 30px;
+}
+.contact-desc > h1 {
+	font-family: "Roboto", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	width: 60%;
+}
+
+.contact-desc > button {
+	margin: 15px 0;
+	width: 250px;
+	background-color: #3398fe;
+	padding: 10px 15px;
+	height: 40px;
+	border: none;
+	border-radius: 25px;
+}
+.contact-desc > button > a {
+	color: white;
+}
 .contacts-banner h1 {
 	padding-top: 20rem;
 	color: #fff;
@@ -800,14 +825,18 @@ CONTACTS PAGES
 }
 .form form input {
 	height: 60px;
-	background-color: #e8f0fe;
+	background-color: white;
+}
+.btn-submit {
+	background-color: #3398fe;
+	width: 200px;
+	border: none;
+	height: 50px;
+	border-radius: 25px;
+	padding: 10px 15px;
 }
 .form form textarea {
-	background-color: #e8f0fe;
-}
-.call-us {
-	background-color: #000;
-	color: #fff;
+	background-color: white;
 }
 .call-us button {
 	border-radius: 10px;
