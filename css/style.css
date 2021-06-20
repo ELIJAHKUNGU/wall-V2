@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap");
 * {
 	padding: 0;
 	margin: 0;
@@ -642,9 +643,19 @@ PROJECTS PAGE
 	height: 600px;
 	padding-bottom: 100px;
 }
+.title-projects > h1 {
+	color: #3398fe;
+	font-weight: 700;
+	font-family: "Roboto", sans-serif;
+}
+.title-projects > p {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+}
 .banner-projects-desc {
 	margin-top: 40px;
 	display: flex;
+
 	flex-direction: column;
 	justify-content: center;
 	color: white;
@@ -652,6 +663,7 @@ PROJECTS PAGE
 .banner-projects-desc > h4 {
 	font-weight: 600;
 	line-height: 30px;
+	font-family: "Roboto", sans-serif;
 }
 .banner-projects-desc > button {
 	width: 300px;
@@ -659,8 +671,11 @@ PROJECTS PAGE
 	border-radius: 20px;
 	border: none;
 }
+.project-btn-2 {
+	background-color: #3398fe;
+}
 .project-btn-2 > a {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 .c1:hover {
@@ -673,20 +688,56 @@ PROJECTS PAGE
 .project-families .col-sm-6 h3 {
 	font-size: 30px;
 	font-weight: 600;
+	font-family: "Roboto", sans-serif;
 }
-.projects-projects .projects .projects-desc .col-sm-3 {
+.sample-project-title {
+	color: #000;
+}
+.sample-project {
 	position: relative;
+	width: 50%;
+	cursor: pointer;
 }
-.projects-projects .projects .projects-desc .col-sm-3 h1 {
+.sample-project > img {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+}
+.sample-project:hover > img {
+	opacity: 0.3;
+}
+.sample-project-title {
+	transition: 0.5s ease;
+	opacity: 0;
 	position: absolute;
-	top: 0px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 	text-align: center;
-	font-size: 30px;
-	color: #fff;
-	margin-top: 100px;
-	display: flex;
-	justify-content: center;
-	padding-left: 10px;
+}
+.sample-project:hover .sample-project-title {
+	opacity: 1;
+}
+.my-title {
+	color: black;
+}
+.project-btn-3 {
+	background-color: #3398fe;
+	padding: 8px 10px;
+	width: 200px;
+	border-radius: 20px;
+	border: none;
+}
+.c2 {
+	color: white;
+}
+.project-btn-3 > a :hover {
+	color: white im !important;
+	text-decoration: none !important;
 }
 /*==================================================
 PORTFOLIO PAGES
@@ -772,8 +823,6 @@ CONTACTS PAGES
 Responsiveness
 ==================================================*/
 @media screen and (max-width: 372px) {
-	.design-feature-type1 {
-	}
 	#design-prefection .design-feature .img-design-feature {
 		object-fit: cover;
 		width: 1000px;
